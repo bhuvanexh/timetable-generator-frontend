@@ -14,7 +14,7 @@ const initialState = {
 }
 
 
-const TEACHERS_URL = `http://localhost:5000/teachers`;
+const TEACHERS_URL = `https://timetable-generator-server.onrender.com/teachers`;
 
 
 export const fetchTeacher = createAsyncThunk('teachers/fetchTeacher', async (_, thunkAPI) => {

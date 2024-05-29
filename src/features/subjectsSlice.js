@@ -10,7 +10,7 @@ const initialState = {
     error: null
 }
 
-const SUBJECTS_URL = `http://localhost:5000/subjects`;
+const SUBJECTS_URL = `https://timetable-generator-server.onrender.com/subjects`;
 
 export const fetchAllSubjects = createAsyncThunk('subjects/fetchSubjects', async (_, thunkAPI) => {
     try {

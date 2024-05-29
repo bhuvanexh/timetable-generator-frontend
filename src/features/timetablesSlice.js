@@ -10,7 +10,7 @@ export const initialState = {
     error: null
 }
 
-const TIMETABLES_URL = `http://localhost:5000/timetables`;
+const TIMETABLES_URL = `https://timetable-generator-server.onrender.com/timetables`;
 
 
 export const fetchAllTimetables = createAsyncThunk('teachers/fetchAllTimetables', async (_, thunkAPI) => {

@@ -8,7 +8,7 @@ export const initialState = {
     error: null
 }
 
-const PARAMETERS_URL = `http://localhost:5000/parameters`;
+const PARAMETERS_URL = `https://timetable-generator-server.onrender.com/parameters`;
 
 export const fetchAllParameters = createAsyncThunk('parameters/fetchAllParameters', async (_, thunkAPI) => {
     try {
