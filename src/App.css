@@ -1,0 +1,300 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* 
+
+.main-wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.react-icon {
+    cursor: pointer;
+}
+
+.react-icon:hover {
+    transform: scale(1.05);
+    color: rgb(76, 0, 255);
+}
+
+
+.home-div {
+    display: flex;
+    height: 100vh;
+    gap: 40px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+}
+
+.home-div h1 {
+    font-size: 55px;
+    color: white;
+    margin-bottom: 50px;
+}
+
+.generate-button-wrapper button,
+.home-div button {
+    color: white;
+    font-size: large;
+    width: 300px;
+    padding-block: 20px;
+    background-image: linear-gradient(to right, #0e0d54, #611485, #a929c6, #bf135d);
+    box-shadow: 0 2px 10px 0 rgba(25, 16, 104, 0.553);
+    background-size: 300% 100%;
+    outline: none;
+    border-radius: 50px;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    cursor: pointer;
+    border: 1px solid rgb(59, 49, 201);
+}
+
+
+.home-div button:hover,
+.generate-button-wrapper button:hover {
+    background-position: 100% 0;
+    transform: translateY(-3px);
+}
+
+
+
+.navbar {
+    background: rgb(13, 1, 31);
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    padding-block: 20px;
+}
+
+.navbar a {
+    display: block;
+    color: white;
+    font-size: 20px;
+}
+
+.navbar a:hover {
+    color: rgb(166, 184, 255);
+    transform: scale(1.05);
+}
+
+.generator-wrapper {
+    padding-block: 20px;
+    background: rgb(4, 21, 67);
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+}
+
+.generator-wrapper h2 {
+    color: white;
+    font-weight: 500;
+}
+
+.generator-wrapper select {
+    outline: none;
+    background: white;
+    border: 1px solid whitesmoke;
+    padding-inline: 8px;
+    padding-block: 3px 4px;
+    border-radius: 5px;
+    color: black;
+    font-size: large;
+    cursor: pointer;
+}
+
+
+
+.index-wrapper {
+    background: #000;
+    flex-grow: 1;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.index-wrapper p {
+    font-size: 25px;
+    text-align: center;
+    width: 70%;
+}
+
+
+.teacher-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    padding-top: 50px;
+    gap: 40px;
+    flex-grow: 1;
+    background: rgb(30, 1, 26);
+}
+
+.teacher-form {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.teacher-form input {
+    width: 300px;
+    height: 30px;
+    outline: none;
+    border-radius: 5px;
+    border: 0;
+    padding: 4px 7px;
+    font-size: 20px;
+}
+
+.teacher-form button {
+    display: block;
+    width: 150px;
+    background-color: #611485;
+    border: 0;
+    color: white;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.teacher-form button:hover {
+    color: aqua;
+}
+
+
+.data-table-wrapper,
+.teacher-table-wrapper,
+.time-table-wrapper {
+    width: 70%;
+    margin-inline: auto;
+    background: rgb(3, 9, 31);
+    padding: 20px 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 10px;
+}
+
+
+.teacher-table-wrapper h2,
+.data-table-wrapper h2,
+.time-table-wrapper h2 {
+    color: white;
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.semester-time-table-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    background: #000;
+    flex-grow: 1;
+    padding-block: 10px;
+}
+
+.data-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-block: 20px;
+    padding: 10px 30px 15px;
+    border-radius: 10px;
+    background-color: #060537a7;
+}
+
+.data-wrapper p {
+    font-size: 30px;
+    align-self: center;
+    color: white;
+}
+
+.data-wrapper div {
+    display: flex;
+    gap: 10px;
+}
+
+.data-wrapper div select {
+    outline: none;
+    background: white;
+    border: 1px solid whitesmoke;
+    padding-inline: 8px;
+    padding-block: 3px 4px;
+    border-radius: 5px;
+    color: black;
+    font-size: large;
+    cursor: pointer;
+}
+
+.data-wrapper div button {
+    display: block;
+    width: 150px;
+    background-color: #611485;
+    border: 0;
+    color: white;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.data-wrapper div button:hover {
+    color: aqua;
+}
+
+.data-wrapper div input {
+    width: 300px;
+    height: 30px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid aqua;
+    padding: 4px 7px;
+    font-size: 20px;
+}
+
+
+.generate-button-wrapper {
+    padding: 10px;
+    margin-block: 10px;
+}
+
+.generate-button-wrapper button {
+    width: 250px;
+    padding-block: 10px;
+}
+
+
+
+.msg-div {
+    display: flex;
+    justify-content: center;
+    color: red;
+    font-size: 20px;
+}
+
+
+
+.btn-disabled {
+    background-color: grey !important;
+    cursor: not-allowed !important;
+} */
+
+
+/* .main-wrapper {
+    padding-top: 50px;
+color: #d3dae5;
+} */

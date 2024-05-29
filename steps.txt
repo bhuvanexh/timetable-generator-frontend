@@ -1,0 +1,99 @@
+> implement react router        ✓
+> implement redux       ✓
+> teachers slice   ✓
+> teacher data adding page      ✓
+> complete data slice     ✓
+> wrapper for selecting semester ✓
+> route for each semester  ✓
+> time table generator page ✓
+> teacher select , number of lectures per week select , subj name input , add button same as todo ✓
+> constraints       ✓
+> setup local storage     ✓
+> react tables learn     ✓
+> tables implement       ✓
+> display semester data   ✓
+> generate time table button  ✓
+
+
+
+
+
+
+
+
+
+
+
+> fix edit teacher same name not allowed       ✓
+> fix add data choose value    ✓
+> conflict resolve within each day of same semester ✓
+> conflict resolve within semester ✓
+
+
+
+
+
+> data entry comp indicator in teachers table list    ✓
+> link to particular teacher page           ✓
+> teacher page                         ✓
+> subject add page for each semester   ✓
+> lock teacher fill form until subjects for all semester added
+> teacher fill form -> [select sem] [B/M.tech] [select subj] [lec per week] [lab ? labs per week]  ✓
+> teacher table            ✓
+> lock generate timetable until all teachers data is added        
+
+
+
+
+
+
+
+
+
+
+
+. null ? should be in last slots
+. lab should be in last slots
+. no teacher should take first class of the day in same semester every day 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+responsive teacher data adding component
+
+
+
+
+> teacher schedule error fix   ...
+> not allowing checkbox if subject teacher for some branch semester section already selected ../
+> showing list of issues before generate timetable 
+  > subject that remained unassigned  ..
+  > total number of classes exceeding limit ..
+  > some teacher overworking  ..
+> merging slices extra reducers .. 
+> same teacher data adding twice ..
+> handling reducers status ..
+> handling reducers errors ..
+> showing form input errors  ..
+> navigation buttons ..
+> replace circular progress with loading component ..
+> error component ..
+> done msg component ..
+> add branches link ..
+> scroll to top  ..
+> teacher data table ..
+> issues list in timetable  ..
+> generate final timetables
+> responsive and styling 
